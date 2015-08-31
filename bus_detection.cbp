@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bus_detection" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="config_reader/;gpu_cnn/;bus_detector_cnn/;utility/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/bus_detection" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add directory="config_reader" />
+					<Add directory="gpu_cnn" />
+					<Add directory="bus_detector_cnn" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/bus_detection" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="config_reader" />
+					<Add directory="gpu_cnn" />
+					<Add directory="bus_detector_cnn" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-std=c++14" />
+			<Add directory="/usr/local/cuda/include" />
+			<Add directory="/usr/local/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmatio" />
+			<Add option="-lopencv_core" />
+			<Add option="-lopencv_imgproc" />
+			<Add option="-lopencv_imgcodecs" />
+			<Add option="-lopencv_highgui" />
+			<Add option="-L/usr/local/cuda/lib64" />
+			<Add option="-lcuda" />
+			<Add option="-lcudart" />
+			<Add option="-lcublas" />
+			<Add option="-lcudnn" />
+		</Linker>
+		<Unit filename="bus_detector_cnn/bus_detector_cnn.cpp">
+			<Option virtualFolder="bus_detector_cnn/" />
+		</Unit>
+		<Unit filename="bus_detector_cnn/bus_detector_cnn.h">
+			<Option virtualFolder="bus_detector_cnn/" />
+		</Unit>
+		<Unit filename="bus_detector_cnn/utility.h">
+			<Option virtualFolder="utility/" />
+		</Unit>
+		<Unit filename="config_reader/config_reader.cpp">
+			<Option virtualFolder="config_reader/" />
+		</Unit>
+		<Unit filename="config_reader/config_reader.h">
+			<Option virtualFolder="config_reader/" />
+		</Unit>
+		<Unit filename="gpu_cnn/gpu_based_layer.h">
+			<Option virtualFolder="gpu_cnn/" />
+		</Unit>
+		<Unit filename="gpu_cnn/gpu_cnn.h">
+			<Option virtualFolder="gpu_cnn/" />
+		</Unit>
+		<Unit filename="gpu_cnn/gpu_convolution_layer.h">
+			<Option virtualFolder="gpu_cnn/" />
+		</Unit>
+		<Unit filename="gpu_cnn/gpu_layer.h">
+			<Option virtualFolder="gpu_cnn/" />
+		</Unit>
+		<Unit filename="gpu_cnn/gpu_pooling_layer.h">
+			<Option virtualFolder="gpu_cnn/" />
+		</Unit>
+		<Unit filename="gpu_cnn/gpu_preprocess_layer.h">
+			<Option virtualFolder="gpu_cnn/" />
+		</Unit>
+		<Unit filename="gpu_cnn/gpu_relu_activatefunc.h">
+			<Option virtualFolder="gpu_cnn/" />
+		</Unit>
+		<Unit filename="gpu_cnn/gpu_softmax_activatefunc.h">
+			<Option virtualFolder="gpu_cnn/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

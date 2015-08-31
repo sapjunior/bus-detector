@@ -1,0 +1,681 @@
+# depslib dependency file v1.0
+1439894778 source:/home/thananop/Works/Pre-Doctoral/bus_detection/bus_detection/config_reader/config_reader.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<cstring>
+	<algorithm>
+	<matio.h>
+	"config_reader.h"
+
+1439894826 /home/thananop/Works/Pre-Doctoral/bus_detection/bus_detection/config_reader/config_reader.h
+	<string>
+
+1439894487 source:/home/thananop/Works/Pre-Doctoral/bus_detection/bus_detection/main.cpp
+	<iostream>
+
+1440207176 source:/home/thananop/Works/Pre-Doctoral/bus_detection/config_reader/config_reader.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<cstring>
+	<algorithm>
+	<matio.h>
+	"config_reader.h"
+
+1440204618 /home/thananop/Works/Pre-Doctoral/bus_detection/config_reader/config_reader.h
+	<string>
+
+1440389861 source:/home/thananop/Works/Pre-Doctoral/bus_detection/bus_detector_cnn/bus_detector_cnn.cpp
+	"bus_detector_cnn.h"
+	"utility.h"
+
+1440386312 /home/thananop/Works/Pre-Doctoral/bus_detection/bus_detector_cnn/bus_detector_cnn.h
+	<opencv2/opencv.hpp>
+	"gpu_cnn.h"
+
+1438252585 /usr/local/include/opencv2/opencv.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo.hpp"
+	"opencv2/video.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/calib3d.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/ml.hpp"
+
+1438252585 /usr/local/include/opencv2/core.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/version.hpp"
+	"opencv2/core/base.hpp"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/core/persistence.hpp"
+	"opencv2/opencv.hpp"
+	"opencv2/xfeatures2d.hpp"
+	"opencv2/core/operations.hpp"
+	"opencv2/core/cvstd.inl.hpp"
+	"opencv2/core/utility.hpp"
+	"opencv2/core/optim.hpp"
+
+1438252585 /usr/local/include/opencv2/core/cvdef.h
+	"opencv2/hal/defs.h"
+	<intrin.h>
+
+1438252585 /usr/local/include/opencv2/hal/defs.h
+	<limits.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<nmmintrin.h>
+	<popcntintrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<Intrin.h>
+	"arm_neon.h"
+	<arm_neon.h>
+	<cstdint>
+	<stdint.h>
+	<fastmath.h>
+	<cmath>
+	<math.h>
+	"tegra_round.hpp"
+	<algorithm>
+
+1438252585 /usr/local/include/opencv2/core/version.hpp
+
+1438252585 /usr/local/include/opencv2/core/base.hpp
+	<climits>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/hal.hpp"
+	"sse_utils.hpp"
+
+1438252585 /usr/local/include/opencv2/core/cvstd.hpp
+	"opencv2/core/cvdef.h"
+	<cstddef>
+	<cstring>
+	<cctype>
+	<string>
+	<algorithm>
+	<utility>
+	<cstdlib>
+	<cmath>
+	"opencv2/core/ptr.inl.hpp"
+
+1438252585 /usr/local/include/opencv2/core/ptr.inl.hpp
+	<algorithm>
+
+1438252585 /usr/local/include/opencv2/hal.hpp
+	"opencv2/hal/defs.h"
+
+1438252585 /usr/local/include/opencv2/core/sse_utils.hpp
+
+1438252585 /usr/local/include/opencv2/core/traits.hpp
+	"opencv2/core/cvdef.h"
+
+1438252585 /usr/local/include/opencv2/core/matx.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/base.hpp"
+	"opencv2/core/traits.hpp"
+
+1438252585 /usr/local/include/opencv2/core/types.hpp
+	<climits>
+	<cfloat>
+	<vector>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/matx.hpp"
+
+1438252585 /usr/local/include/opencv2/core/mat.hpp
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/bufferpool.hpp"
+	"opencv2/core/mat.inl.hpp"
+
+1438252585 /usr/local/include/opencv2/core/bufferpool.hpp
+
+1438252585 /usr/local/include/opencv2/core/mat.inl.hpp
+
+1438252585 /usr/local/include/opencv2/core/persistence.hpp
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/opencv.hpp"
+	<time.h>
+
+1438252585 /usr/local/include/opencv2/core/operations.hpp
+	<cstdio>
+
+1438252585 /usr/local/include/opencv2/core/cvstd.inl.hpp
+	<complex>
+	<ostream>
+
+1438252585 /usr/local/include/opencv2/core/utility.hpp
+	"opencv2/core.hpp"
+	"opencv2/core/core_c.h"
+
+1438252585 /usr/local/include/opencv2/core/core_c.h
+	"opencv2/core/types_c.h"
+	"cxcore.h"
+	"cxcore.h"
+	"opencv2/core/utility.hpp"
+
+1438252585 /usr/local/include/opencv2/core/types_c.h
+	<ipl.h>
+	<ipl/ipl.h>
+	"opencv2/core/cvdef.h"
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	"opencv2/core.hpp"
+
+1438252585 /usr/local/include/opencv2/core/optim.hpp
+	"opencv2/core.hpp"
+
+1438252585 /usr/local/include/opencv2/imgproc.hpp
+	"opencv2/core.hpp"
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	<opencv2/imgcodecs.hpp>
+	<opencv2/highgui.hpp>
+	<iostream>
+	<opencv2/imgproc.hpp>
+	<opencv2/highgui.hpp>
+	<opencv2/imgproc.hpp>
+	<opencv2/highgui.hpp>
+	<math.h>
+	<opencv2/imgproc.hpp>
+	<opencv2/highgui.hpp>
+	"opencv2/imgproc.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+
+1438252585 /usr/local/include/opencv2/imgcodecs.hpp
+	"opencv2/core.hpp"
+	<vector>
+	<stdio.h>
+	<opencv2/opencv.hpp>
+
+1438252585 /usr/local/include/opencv2/highgui.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1438252585 /usr/local/include/opencv2/videoio.hpp
+	"opencv2/core.hpp"
+	"opencv2/opencv.hpp"
+
+1438252585 /usr/local/include/opencv2/highgui/highgui_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgcodecs/imgcodecs_c.h"
+	"opencv2/videoio/videoio_c.h"
+
+1438252585 /usr/local/include/opencv2/imgproc/imgproc_c.h
+	"opencv2/imgproc/types_c.h"
+
+1438252585 /usr/local/include/opencv2/imgproc/types_c.h
+	"opencv2/core/core_c.h"
+
+1438252585 /usr/local/include/opencv2/imgcodecs/imgcodecs_c.h
+	"opencv2/core/core_c.h"
+
+1438252585 /usr/local/include/opencv2/videoio/videoio_c.h
+	"opencv2/core/core_c.h"
+
+1438252585 /usr/local/include/opencv2/photo.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo/photo_c.h"
+
+1438252585 /usr/local/include/opencv2/photo/photo_c.h
+	"opencv2/core/core_c.h"
+
+1438252585 /usr/local/include/opencv2/video.hpp
+	"opencv2/video/tracking.hpp"
+	"opencv2/video/background_segm.hpp"
+	"opencv2/video/tracking_c.h"
+
+1438252585 /usr/local/include/opencv2/video/tracking.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+
+1438252585 /usr/local/include/opencv2/video/background_segm.hpp
+	"opencv2/core.hpp"
+
+1438252585 /usr/local/include/opencv2/video/tracking_c.h
+	"opencv2/imgproc/types_c.h"
+
+1438252585 /usr/local/include/opencv2/features2d.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+
+1438252585 /usr/local/include/opencv2/flann/miniflann.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/defines.h"
+
+1438252585 /usr/local/include/opencv2/flann/defines.h
+	"config.h"
+
+1438252585 /usr/local/include/opencv2/flann/config.h
+
+1438252585 /usr/local/include/opencv2/objdetect.hpp
+	"opencv2/core.hpp"
+	"opencv2/objdetect/detection_based_tracker.hpp"
+	"opencv2/objdetect/objdetect_c.h"
+
+1438252585 /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp
+	<vector>
+
+1438252585 /usr/local/include/opencv2/objdetect/objdetect_c.h
+	"opencv2/core/core_c.h"
+	<deque>
+	<vector>
+
+1438252585 /usr/local/include/opencv2/calib3d.hpp
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/core/affine.hpp"
+	"opencv2/calib3d/calib3d_c.h"
+
+1438252585 /usr/local/include/opencv2/core/affine.hpp
+	<opencv2/core.hpp>
+
+1438252585 /usr/local/include/opencv2/calib3d/calib3d_c.h
+	"opencv2/core/core_c.h"
+
+1438252585 /usr/local/include/opencv2/ml.hpp
+	"opencv2/core.hpp"
+	<float.h>
+	<map>
+	<iostream>
+
+1440357666 /home/thananop/Works/Pre-Doctoral/bus_detection/gpu_cnn/gpu_cnn.h
+	<vector>
+	<memory>
+	"config_reader.h"
+	"gpu_layer.h"
+	<opencv2/opencv.hpp>
+
+1440186460 /home/thananop/Works/Pre-Doctoral/bus_detection/gpu_cnn/gpu_layer.h
+	"gpu_preprocess_layer.h"
+	"gpu_convolution_layer.h"
+	"gpu_relu_activatefunc.h"
+	"gpu_pooling_layer.h"
+	"gpu_softmax_activatefunc.h"
+
+1440383728 /home/thananop/Works/Pre-Doctoral/bus_detection/gpu_cnn/gpu_convolution_layer.h
+	<gpu_based_layer.h>
+
+1440288772 /home/thananop/Works/Pre-Doctoral/bus_detection/gpu_cnn/gpu_based_layer.h
+	<iostream>
+	<sstream>
+	<stdlib.h>
+	"cuda.h"
+	"cudnn.h"
+	"cublas_v2.h"
+
+1438447245 /usr/local/cuda/include/cuda.h
+	<stdlib.h>
+
+1437363963 /usr/local/cuda/include/cudnn.h
+	"driver_types.h"
+	<cuda_runtime.h>
+
+1438447245 /usr/local/cuda/include/driver_types.h
+	"host_defines.h"
+	<limits.h>
+	<stddef.h>
+
+1438447245 /usr/local/cuda/include/host_defines.h
+
+1438447245 /usr/local/cuda/include/cuda_runtime.h
+	"host_config.h"
+	"builtin_types.h"
+	"channel_descriptor.h"
+	"cuda_runtime_api.h"
+	"driver_functions.h"
+	"host_defines.h"
+	"vector_functions.h"
+	"nvrtc_device_runtime.h"
+	"ci_include.h"
+	"device_functions.h"
+	"common_functions.h"
+	"cuda_surface_types.h"
+	"cuda_texture_types.h"
+	"device_launch_parameters.h"
+	"common_functions.h"
+	"cuda_surface_types.h"
+	"cuda_texture_types.h"
+	"device_functions.h"
+	"device_launch_parameters.h"
+
+1438447245 /usr/local/cuda/include/host_config.h
+	<features.h>
+	<crtdefs.h>
+
+1438447245 /usr/local/cuda/include/builtin_types.h
+	"device_types.h"
+	"driver_types.h"
+	"surface_types.h"
+	"texture_types.h"
+	"vector_types.h"
+
+1438447245 /usr/local/cuda/include/device_types.h
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/surface_types.h
+	"driver_types.h"
+
+1438447245 /usr/local/cuda/include/texture_types.h
+	"driver_types.h"
+
+1438447245 /usr/local/cuda/include/vector_types.h
+	"builtin_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/channel_descriptor.h
+	"driver_types.h"
+	"cuda_runtime_api.h"
+	"host_defines.h"
+	"vector_types.h"
+
+1438447245 /usr/local/cuda/include/cuda_runtime_api.h
+	"host_defines.h"
+	"builtin_types.h"
+	"cuda_device_runtime_api.h"
+
+1438447245 /usr/local/cuda/include/cuda_device_runtime_api.h
+	"driver_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/driver_functions.h
+	"builtin_types.h"
+	"host_defines.h"
+	"driver_types.h"
+
+1438447245 /usr/local/cuda/include/vector_functions.h
+	"builtin_types.h"
+	"host_defines.h"
+	"vector_types.h"
+	"vector_functions.hpp"
+
+1438447245 /usr/local/cuda/include/vector_functions.hpp
+	"builtin_types.h"
+	"host_defines.h"
+	"vector_types.h"
+
+1438447245 /usr/local/cuda/include/device_functions.h
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+	"device_functions.hpp"
+	"device_atomic_functions.h"
+	"device_double_functions.h"
+	"sm_20_atomic_functions.h"
+	"sm_32_atomic_functions.h"
+	"sm_35_atomic_functions.h"
+	"sm_20_intrinsics.h"
+	"sm_30_intrinsics.h"
+	"sm_32_intrinsics.h"
+	"sm_35_intrinsics.h"
+	"surface_functions.h"
+	"texture_fetch_functions.h"
+	"texture_indirect_functions.h"
+	"surface_indirect_functions.h"
+
+1438447245 /usr/local/cuda/include/device_functions.hpp
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/device_atomic_functions.h
+	"builtin_types.h"
+	"host_defines.h"
+	"builtin_types.h"
+	"host_defines.h"
+	"device_atomic_functions.hpp"
+
+1438447245 /usr/local/cuda/include/device_atomic_functions.hpp
+	"builtin_types.h"
+	"host_defines.h"
+	"builtin_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/device_double_functions.h
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+	"device_double_functions.hpp"
+
+1438447245 /usr/local/cuda/include/device_double_functions.hpp
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/sm_20_atomic_functions.h
+	"builtin_types.h"
+	"host_defines.h"
+	"sm_20_atomic_functions.hpp"
+
+1438447245 /usr/local/cuda/include/sm_20_atomic_functions.hpp
+	"builtin_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/sm_32_atomic_functions.h
+	"builtin_types.h"
+	"host_defines.h"
+	"sm_32_atomic_functions.hpp"
+
+1438447245 /usr/local/cuda/include/sm_32_atomic_functions.hpp
+	"builtin_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/sm_35_atomic_functions.h
+	"sm_32_atomic_functions.h"
+
+1438447245 /usr/local/cuda/include/sm_20_intrinsics.h
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+	"sm_20_intrinsics.hpp"
+
+1438447245 /usr/local/cuda/include/sm_20_intrinsics.hpp
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/sm_30_intrinsics.h
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+	"sm_30_intrinsics.hpp"
+
+1438447245 /usr/local/cuda/include/sm_30_intrinsics.hpp
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/sm_32_intrinsics.h
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+	"sm_32_intrinsics.hpp"
+
+1438447245 /usr/local/cuda/include/sm_32_intrinsics.hpp
+	"builtin_types.h"
+	"device_types.h"
+	"host_defines.h"
+
+1438447245 /usr/local/cuda/include/sm_35_intrinsics.h
+	"sm_32_intrinsics.h"
+
+1438447245 /usr/local/cuda/include/surface_functions.h
+	"builtin_types.h"
+	"cuda_surface_types.h"
+	"host_defines.h"
+	"surface_types.h"
+	"vector_functions.h"
+	"vector_types.h"
+	"surface_functions.hpp"
+
+1438447245 /usr/local/cuda/include/cuda_surface_types.h
+	"builtin_types.h"
+	"channel_descriptor.h"
+	"driver_types.h"
+	"host_defines.h"
+	"surface_types.h"
+
+1438447245 /usr/local/cuda/include/surface_functions.hpp
+	"builtin_types.h"
+	"cuda_surface_types.h"
+	"host_defines.h"
+	"surface_types.h"
+	"vector_functions.h"
+	"vector_types.h"
+
+1438447245 /usr/local/cuda/include/texture_fetch_functions.h
+	"builtin_types.h"
+	"cuda_texture_types.h"
+	"host_defines.h"
+	"texture_types.h"
+	"vector_functions.h"
+	"vector_types.h"
+	"texture_fetch_functions.hpp"
+
+1438447245 /usr/local/cuda/include/cuda_texture_types.h
+	"builtin_types.h"
+	"channel_descriptor.h"
+	"driver_types.h"
+	"host_defines.h"
+	"texture_types.h"
+
+1438447245 /usr/local/cuda/include/texture_fetch_functions.hpp
+	"builtin_types.h"
+	"cuda_texture_types.h"
+	"host_defines.h"
+	"texture_types.h"
+	"vector_functions.h"
+	"vector_types.h"
+
+1438447245 /usr/local/cuda/include/texture_indirect_functions.h
+	"builtin_types.h"
+	"host_defines.h"
+	"vector_functions.h"
+	"texture_indirect_functions.hpp"
+
+1438447245 /usr/local/cuda/include/texture_indirect_functions.hpp
+	"builtin_types.h"
+	"host_defines.h"
+	"vector_functions.h"
+
+1438447245 /usr/local/cuda/include/surface_indirect_functions.h
+	"builtin_types.h"
+	"host_defines.h"
+	"vector_functions.h"
+	"surface_indirect_functions.hpp"
+
+1438447245 /usr/local/cuda/include/surface_indirect_functions.hpp
+	"builtin_types.h"
+	"host_defines.h"
+	"vector_functions.h"
+
+1438447245 /usr/local/cuda/include/common_functions.h
+	"builtin_types.h"
+	"host_defines.h"
+	<string.h>
+	<time.h>
+	<new>
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	"cuda_device_runtime_api.h"
+	"math_functions.h"
+
+1438447245 /usr/local/cuda/include/math_functions.h
+	"builtin_types.h"
+	"host_defines.h"
+	<math.h>
+	<stdlib.h>
+	<cmath>
+	<cstdlib>
+	"host_defines.h"
+	"math_constants.h"
+	"device_functions_decls.h"
+	"device_functions.h"
+	<crt/func_macro.h>
+	"math_functions.hpp"
+	"math_functions_dbl_ptx3.h"
+
+1438447245 /usr/local/cuda/include/math_constants.h
+
+1438447245 /usr/local/cuda/include/device_functions_decls.h
+
+1438447245 /usr/local/cuda/include/crt/func_macro.h
+
+1438447245 /usr/local/cuda/include/math_functions.hpp
+	"builtin_types.h"
+	"host_defines.h"
+	"host_defines.h"
+	"math_constants.h"
+	"device_functions_decls.h"
+	"device_functions.h"
+	<crt/func_macro.h>
+
+1438447245 /usr/local/cuda/include/math_functions_dbl_ptx3.h
+	"math_functions_dbl_ptx3.hpp"
+
+1438447245 /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+
+1438447245 /usr/local/cuda/include/device_launch_parameters.h
+	"vector_types.h"
+
+1438447245 /usr/local/cuda/include/cublas_v2.h
+	"cublas_api.h"
+
+1438447245 /usr/local/cuda/include/cublas_api.h
+	"driver_types.h"
+	"cuComplex.h"
+
+1438447245 /usr/local/cuda/include/cuComplex.h
+	<math.h>
+	"vector_types.h"
+
+1440207894 /home/thananop/Works/Pre-Doctoral/bus_detection/gpu_cnn/gpu_relu_activatefunc.h
+	<gpu_based_layer.h>
+
+1440248626 /home/thananop/Works/Pre-Doctoral/bus_detection/gpu_cnn/gpu_pooling_layer.h
+	<gpu_based_layer.h>
+
+1440254144 /home/thananop/Works/Pre-Doctoral/bus_detection/gpu_cnn/gpu_softmax_activatefunc.h
+	<gpu_based_layer.h>
+
+1440386447 source:/home/thananop/Works/Pre-Doctoral/bus_detection/main.cpp
+	<iostream>
+	<opencv2/opencv.hpp>
+	"bus_detector_cnn.h"
+
+1438848573 /usr/local/include/opencv2/xfeatures2d.hpp
+	"opencv2/features2d.hpp"
+	"opencv2/xfeatures2d/nonfree.hpp"
+
+1438848573 /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
+	"opencv2/features2d.hpp"
+
+1440250096 /home/thananop/Works/Pre-Doctoral/bus_detection/gpu_cnn/gpu_preprocess_layer.h
+	"gpu_based_layer.h"
+
+1440351046 /home/thananop/Works/Pre-Doctoral/bus_detection/bus_detector_cnn/utility.h
+	<opencv2/opencv.hpp>
+	"bus_detector_cnn.h"
+
