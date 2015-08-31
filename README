@@ -1,0 +1,7 @@
+Deep Convolutional Neural Network Bus Detector
+
+Require Library
+ - OpenCV 3
+ - matio
+ - CUDA 7.0 (or higher)
+ - cuDNN v3
